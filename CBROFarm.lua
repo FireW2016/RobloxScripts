@@ -24,9 +24,9 @@ if Executed.Value == false then
 Executed.Value = true
 while wait(10) do
 
-local CTScore = game.Players.WaterWarrior20161.PlayerGui.GUI.UpperInfo.CTScore.Text -- Mettete il nome roblox al posto di STOCAZZO per tutte
-local TScore = game.Players.WaterWarrior20161.PlayerGui.GUI.UpperInfo.TScore.Text  -- Put your roblox name instead of STOCAZZO for all
-local CurrentTeam = game.Players.WaterWarrior20161.Status.Team.Value
+local CTScore = game.Players.LocalPlayer.PlayerGui.GUI.UpperInfo.CTScore.Text -- Mettete il nome roblox al posto di STOCAZZO per tutte
+local TScore = game.Players.LocalPlayer.PlayerGui.GUI.UpperInfo.TScore.Text  -- Put your roblox name instead of STOCAZZO for all
+local CurrentTeam = game.Players.LocalPlayer.Status.Team.Value
 
 if Switch.Value == true then
 
