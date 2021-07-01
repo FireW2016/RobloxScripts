@@ -61,7 +61,7 @@ elseif CurrentTeam == "Spectator" then                                          
  
         game:GetService("ReplicatedStorage").Events.JoinTeam:FireServer(unpack(args))
  
-wait(5)
+wait(3)
     local args = {
         [1] = "CT"
     }
